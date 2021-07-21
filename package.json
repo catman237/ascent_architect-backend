@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npx knex migrate:latest && npx knex seed:run && node index.js"
+    "start": "node ./bin/www",
+    "devstart": "node climbs.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
